@@ -38,7 +38,7 @@ export const SendCrypto =()=>{
         <div className="mt-20 ">
         {currentAccount ? (
                     <h3 className="text-white text-3xl text-center my-2 text-bold underline underline-offset-4">
-                        Send Ether & Tokens
+                        Send Ether
                     </h3>
                 ):(<div className ="flex flex-col w-full justify-center items-center 2xl:px-20 ">
                     <h3 className="text-white text-3xl text-center my-2">

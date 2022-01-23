@@ -139,7 +139,6 @@ export const TransactionProvider = ({children}) =>{
     useEffect(()=>{
         checkIfWalletIsConnected();
         checkIfTransactionsExist();
-        getBalance("0x3bE4C1478De4A0387BDFD9911EB8446dB88914DA");
     },[]);
 
     return(
